@@ -41,7 +41,8 @@ const Word = ({ word }) => (
 
 const PARTS_OF_SPEECH = {
   ADJECTIVE: 'adjective',
-  PREFIX: 'prefix'
+  PREFIX: 'prefix',
+  NOUN: 'noun'
 };
 
 const words = [
@@ -54,6 +55,11 @@ const words = [
     word: 'col-',
     partOfSpeech: PARTS_OF_SPEECH.PREFIX,
     definition: 'The opposite of row.'
+  },
+  {
+    word: 'burriwich',
+    partOfSpeech: PARTS_OF_SPEECH.NOUN,
+    definition: 'A sandwich made with tortilla instead of bread.'
   }
 ];
 
