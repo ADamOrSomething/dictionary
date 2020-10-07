@@ -60,6 +60,11 @@ const words = [
     word: 'burriwich',
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: 'A sandwich made with tortilla instead of bread.'
+  },
+  {
+    word: 'adamword',
+    partOfSpeech: PARTS_OF_SPEECH.NOUN,
+    definition: 'A word found in this dictionary.'
   }
 ];
 
