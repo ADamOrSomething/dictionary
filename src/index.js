@@ -69,6 +69,11 @@ const words = [
     word: "adanxiety",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of Briana and Reja"
+  },
+  {
+    word: "loneliness",
+    partOfSpeech: PARTS_OF_SPEECH.NOUN,
+    definition: "Me"
   }
 ];
 
