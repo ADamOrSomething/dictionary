@@ -63,17 +63,22 @@ const words = [
     word: "hyperadam",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition:
-      "When you have a blast of hyper thoughts that only Adam can have. - Courtesy of Reja",
+      "When you have a blast of hyper thoughts that only Adam can have. - Courtesy of 8th grade English.",
   },
   {
     word: "adanxiety",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
-    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of Briana and Reja"
+    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of 8th grade English."
   },
   {
     word: "loneliness",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: "Me"
+  },
+  {
+    word: "adanventure",
+    partOfSpeech: PARTS_OF_SPEECH.NOUN,
+    definition: "An adventure that's super boring. - Courtesy of 8th grade English."
   }
 ];
 
