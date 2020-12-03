@@ -22,6 +22,7 @@ const Table = ({ words }) => (
       <th>Word</th>
       <th>Part of Speech</th>
       <th>Definition</th>
+      <th>Usage Example</th>
     </tr>
     {words.map((word) => {
       return <Word word={word} />;
@@ -34,6 +35,7 @@ const Word = ({ word }) => (
     <td>{word.word}</td>
     <td>{word.partOfSpeech}</td>
     <td>{word.definition}</td>
+    <td>{word.usage}</td>
   </tr>
 );
 
@@ -48,37 +50,44 @@ const words = [
     word: "veldt-y",
     partOfSpeech: PARTS_OF_SPEECH.ADJECTIVE,
     definition: "Exhibiting properties of a veldt.",
+    usage: "The safari was very veldt-y."
   },
   {
     word: "burriwich",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: "A sandwich made with tortilla instead of bread.",
+    usage: "I ate a burriwich for lunch."
   },
   {
     word: "adamword",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: "A word found in this dictionary.",
+    usage: "Adamword is an adamword."
   },
   {
     word: "hyperadam",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition:
       "When you have a blast of hyper thoughts that only Adam can have. - Courtesy of 8th grade English.",
+      usage: "This dictionary is a hyperadam."
   },
   {
     word: "adanxiety",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
-    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of 8th grade English."
+    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of 8th grade English.",
+    usage: "When I was in English class I experienced adanxiety."
   },
   {
     word: "loneliness",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
-    definition: "Me"
+    definition: "Me",
+    usage: "I'm the definition of loneliness."
   },
   {
     word: "adanventure",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
-    definition: "An adventure that's super boring. - Courtesy of 8th grade English."
+    definition: "An adventure that's super boring. - Courtesy of 8th grade English.",
+    usage: "Adding this word was an adanventure."
   }
 ];
 
