@@ -23,6 +23,7 @@ const Table = ({ words }) => (
       <th>Part of Speech</th>
       <th>Definition</th>
       <th>Usage Example</th>
+      <th>Coined By</th>
     </tr>
     {words.map((word) => {
       return <Word word={word} />;
@@ -36,6 +37,7 @@ const Word = ({ word }) => (
     <td>{word.partOfSpeech}</td>
     <td>{word.definition}</td>
     <td>{word.usage}</td>
+    <td>{word.coined ? word.coined : "Me"}</td>
   </tr>
 );
 
@@ -50,7 +52,7 @@ const words = [
     word: "veldt-y",
     partOfSpeech: PARTS_OF_SPEECH.ADJECTIVE,
     definition: "Exhibiting properties of a veldt.",
-    usage: "The safari was very veldt-y."
+    usage: "The safari was very veldt-y.",
   },
   {
     word: "burriwich",
@@ -68,14 +70,16 @@ const words = [
     word: "hyperadam",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition:
-      "When you have a blast of hyper thoughts that only Adam can have. - Courtesy of 8th grade English.",
-      usage: "This dictionary is a hyperadam."
+      "When you have a blast of hyper thoughts that only Adam can have.",
+    usage: "This dictionary is a hyperadam.",
+    coined: "Reja"
   },
   {
     word: "adanxiety",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
-    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does. - Courtesy of 8th grade English.",
-    usage: "When I was in English class I experienced adanxiety."
+    definition: "The level of anxiety you can only experience from stressing or raging the way Adam does.",
+    usage: "When I was in English class I experienced adanxiety.",
+    coined: "Briana & Reja"
   },
   {
     word: "loneliness",
@@ -87,7 +91,8 @@ const words = [
     word: "adanventure",
     partOfSpeech: PARTS_OF_SPEECH.NOUN,
     definition: "An adventure that's super boring. - Courtesy of 8th grade English.",
-    usage: "Adding this word was an adanventure."
+    usage: "Adding this word was an adanventure.",
+    coined: "Reja"
   }
 ];
 
