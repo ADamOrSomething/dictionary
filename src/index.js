@@ -93,6 +93,12 @@ const words = [
     definition: "An adventure that's super boring. - Courtesy of 8th grade English.",
     usage: "Adding this word was an adanventure.",
     coined: "Reja"
+  },
+  {
+    word: "dailiversery",
+    partOfSpeech: PARTS_OF_SPEECH.NOUN,
+    definition: "The daily recurrence of a date marking a notable event.",
+    usage: "Today was our dailiversery, as is every day."
   }
 ];
 
